@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    #4e4e4e,
+    #5c5974,
+    #69659c,
+    #7371c6,
+    #5c60c0
+  );
+  /* background-image: linear-gradient(90deg, #11aeeb, #c13af1); */
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: #fff8f8;
+  font-size: 2em;
+}
+.container {
+  position: relative;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.btn {
+  font-size: 1.2em;
+  margin-top: 40px;
+  min-width: 40%;
+  font-family: "Roboto", sans-serif;
+  color: #fff !important;
+  background: #c15757;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+.btn:hover {
+  border-top: 40px;
+  font-family: "Roboto", sans-serif;
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
